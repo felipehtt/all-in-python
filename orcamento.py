@@ -2,6 +2,7 @@ import os
 import sys
 import time
 
+os.system('cls')
 sys.stdout.write("\nCarregando programa...\n")
 time.sleep(2)
 os.system('cls')
