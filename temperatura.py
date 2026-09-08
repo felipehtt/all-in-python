@@ -15,7 +15,7 @@ sys.stdout.write("\nVerificando temperatura...\n")
 time.sleep(3)
 os.system('cls')
 
-if temp >= 78.5:
-    print("\nALERTA: Ligar refrigeração extra!\n")
+if temp > 75:
+    print(f"\nALERTA: Ligar refrigeração extra! Temperatura: {temp:.1f}°C\n")
 else:
-    print("\nTemperatura dentro do padrão.\n")
+    print(f"\nTemperatura dentro do padrão. Temperatura: {temp:.1f}°C\n")

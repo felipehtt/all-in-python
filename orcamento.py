@@ -17,7 +17,4 @@ print("\nVerificando se está dentro do orçamento...\n")
 time.sleep(3)
 os.system('cls')
 
-if (total <= 2500):
-    print(True)
-else:
-    print(False)
+print(total <= 2500)

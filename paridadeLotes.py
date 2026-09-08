@@ -9,16 +9,16 @@ os.system('cls')
 
 print("\nPrograma de paridade de lotes.\n")
 
-numLote = int(input("Informe o número do lote: "))
+num_lote = int(input("Informe o número do lote: "))
 
-numLotePar = numLote % 2
+num_lote_par = num_lote % 2
 
 os.system('cls')
 sys.stdout.write("\nVerificando lote...\n")
 time.sleep(3)
 os.system('cls')
 
-if (numLotePar == 0):
-    print("\nO lote {} é par.\n".format(numLote))
+if (num_lote_par == 0):
+    print(f"\nO lote {num_lote} é par.\n")
 else:
-    print("\nO lote {} é ímpar.\n".format(numLote))
+    print(f"\nO lote {num_lote} é ímpar.\n")

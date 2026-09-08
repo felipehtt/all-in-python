@@ -13,7 +13,7 @@ salario = float(input("Informe o salário bruto: "))
 
 beneficios = float(input("Informe o valor dos benefícios: "))
 
-inss = 120
+inss = salario * 0.8
 
 total = salario + beneficios - inss
 
@@ -24,9 +24,9 @@ os.system('cls')
 
 if (total > 1412):
     print("\nFolha de pagamento calculada com sucesso!\n")
-    print("Salário bruto: R$ {:.2f}".format(salario))
-    print("Benefícios: R$ {:.2f}".format(beneficios))
-    print("Desconto INSS: R$ {:.2f}".format(inss))
-    print("Total a receber: R$ {:.2f}\n".format(total))
+    print(f"Salário bruto: R$ {salario:.2f}")
+    print(f"Benefícios: R$ {beneficios:.2f}")
+    print(f"Desconto INSS: R$ {inss:.2f}")
+    print(f"Total a receber: R$ {total:.2f}\n")
 else:
     print("\nHá um erro na folha de pagamento.\n")
