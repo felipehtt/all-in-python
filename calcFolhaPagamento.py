@@ -13,7 +13,7 @@ salario = float(input("Informe o salário bruto: "))
 
 beneficios = float(input("Informe o valor dos benefícios: "))
 
-inss = salario * 0.8
+inss = salario * 0.08
 
 total = salario + beneficios - inss
 

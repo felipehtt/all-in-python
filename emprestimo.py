@@ -24,7 +24,7 @@ os.system('cls')
 
 if (parcela > salario_disponivel):
     print("\nEmpréstimo não aprovado.\n")
-    print(f"O valor da parcela (R$ {parcela:.2f}) é maior ou igual a 30% do seu salario (R$ {salario_disponivel:.2f}).\n")
+    print(f"O valor da parcela (R$ {parcela:.2f}) é maior que 30% do seu salario (R$ {salario_disponivel:.2f}).\n")
 else:
     print("\nEmpréstimo aprovado!\n")
     print(f"O valor da parcela (R$ {parcela:.2f}) é menor que 30% do seu salario (R$ {salario_disponivel:.2f}).\n")
