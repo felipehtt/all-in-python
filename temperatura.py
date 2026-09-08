@@ -11,7 +11,7 @@ temp = float(input("Informe a temperatura do servidor: "))
 
 os.system('cls')
 sys.stdout.write("\nVerificando temperatura...\n")
-time.sleep(2)
+time.sleep(3)
 os.system('cls')
 
 if temp >= 78.5:

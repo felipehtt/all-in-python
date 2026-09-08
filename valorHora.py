@@ -3,9 +3,7 @@ import sys
 import time
 
 sys.stdout.write("\nCarregando programa...\n")
-
 time.sleep(2)
-
 os.system('cls')
 
 print("\nPrograma de calculo de valor por hora trabalhada.\n")
@@ -16,14 +14,9 @@ salario = float(input("Informe quanto você recebe por mês: "))
 
 valorHora = salario / (horasDia * quantDias)
 
-time.sleep(0.5)
-
 os.system('cls')
-
 sys.stdout.write("\nCalculando valor por hora trabalhada...")
-
 time.sleep(3)
-
 os.system('cls')
 
 print("\nO valor que você recebe por hora trabalhada é de R$ {:.2f}\n".format(valorHora))

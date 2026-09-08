@@ -12,10 +12,9 @@ monitor = float(input("Informe o valor do monitor: "))
 total = monitor * 3
 
 os.system('cls')
-
 print("\nVerificando se está dentro do orçamento...\n")
-
-time.sleep(2)
+time.sleep(3)
+os.system('cls')
 
 if (total <= 2500):
     print(True)
