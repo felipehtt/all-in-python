@@ -6,23 +6,19 @@ def validar_login(user, senha):
     else:
         print("\nAcesso negado.\n")
 
-try:
 
-    os.system('cls')
-    sys.stdout.write("\nCarregando programa...\n")
-    time.sleep(2)
-    os.system('cls')
+os.system('cls')
+sys.stdout.write("\nCarregando programa...\n")
+time.sleep(2)
+os.system('cls')
 
-    print("\nPrograma de validação de login.\n")
-    user = input("Informe o usuário: ")
-    senha = input("Informe a senha: ")
+print("\nPrograma de validação de login.\n")
+user = input("Informe o usuário: ")
+senha = input("Informe a senha: ")
 
-    os.system('cls')
-    sys.stdout.write("\nValidando login...\n")
-    time.sleep(3)
-    os.system('cls')
+os.system('cls')
+sys.stdout.write("\nValidando login...\n")
+time.sleep(3)
+os.system('cls')
 
-    validar_login(user, senha)
-
-except ValueError:
-    print("\nErro: Por favor, insira apenas valores válidos.\n")
+validar_login(user, senha)
